@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Spin Wheel</title>
+</head>
+<body>
+	<h1>RANDOM WHEEL</h1>
+    <!-- Ô nhập tên người chơi -->
+    <div class="player-input">
+        <input type="text" id="player-name" placeholder="Nhập tên người chơi">
+        <button id="add-player">Thêm người chơi</button>
+        <ul id="player-list"></ul>
+    </div>
+
+    <!-- Vòng quay may mắn -->
+	<div class="wheel-container">
+		<div class="arrow"></div>
+		<div class="container"></div>
+		<button id="spin">Spin</button>
+	</div>
+	
+	<div class="player-controls">
+		<button id="delete-player">Delete</button>
+		<button id="delete-all">Delete All</button>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+</html>
